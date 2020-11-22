@@ -1,0 +1,71 @@
+body{
+    background-image: url(annie-spratt-rjIacQc-uYs-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+h1{
+    font-size: 30px;
+    color: greenyellow;
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 0 0 5px;
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+/* align-items: center; */
+width: 34%;
+box-shadow: 0 0 10px green,0 0 40px green,0 0 60px green;
+margin: auto;
+margin-top: 5%;
+height: 500px;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid green;
+    outline: none;
+    font-size: 30px;
+    margin-top: 65px;
+    background-color:transparent;
+    color: greenyellow;
+    text-shadow: 0 0 5px greenyellow;
+    /* box-shadow: 0 0 5px ; */
+}
+
+#sub{
+outline: none;
+font-size: 25px;
+padding: 10px;
+margin-left: 0px;
+background-color: transparent;
+border: none;
+border-bottom: 2px solid green;
+color: greenyellow;
+margin-top: 27px;
+
+}
+#sub:hover{
+outline: none;
+   cursor: pointer;
+   background-color: greenyellow;
+   color: black;
+    box-shadow: 0 0 10px greenyellow,0 0 40px greenyellow,0 0 60px greenyellow;
+    
+    
+    }
+
+    a{
+        text-decoration-line: none;
+        font-size: 20px;
+        color: greenyellow;
+        margin-top: 50px;
+
+    }
+    a:hover{
+        font-size: 25px;
+        transition: 0.4s;
+    }
+
