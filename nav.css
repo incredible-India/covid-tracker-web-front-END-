@@ -1,0 +1,18 @@
+.dark{
+    color: white;
+    background-color: black;
+}
+
+.tabledata{
+    margin: 25px;
+    margin-top: 44px;
+    /* border: none; */
+    padding: 10px;
+    border: 1px solid;
+}
+.cardmodi{
+    float: left;
+}
+.card-body{
+    cursor: pointer;
+}
